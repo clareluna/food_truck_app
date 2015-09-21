@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Truck App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="getTruckInfo">
+      <form id="getTruck" method="GET" action="/truck" name="FoodTruck"></form>
+        <div>
+          Enter Name of Food Truck: <br />
+          <input type="text" name="FoodTruckName" id="truckName" />
+          <input type="submit" id="submitTruck" value="Submit" />
+        </div>
+      </form>
+    </div>
+      <form id="getCuisine" method="GET" action="/cuisine" name="Cuisine"></form>
+        <div>
+          Find Truck by Type of Cuisine: <br />
+          <input type="text" name="CuisineType" id="cuisineName" />
+          <input type="submit" id="submitCuisine" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <div>
+    </div>
+  </body>
+</html>
